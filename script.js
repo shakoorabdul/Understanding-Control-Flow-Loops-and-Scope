@@ -1,14 +1,14 @@
 let number = -5; // Change this value to test different outcomes
 
 if (number > 0) {
-    console.log(`${number} is positive.`);
+    console.log("The number is positive.");
 } else if (number < 0) {
-    console.log(`${number} is negative.`);
+    console.log("The number is negative.");
 } else {
     console.log("The number is zero.");
 }
 
-let dayNumber = 3;
+let dayNumber = 3; // Change this number (1 to 7) to see different days
 
 switch (dayNumber) {
     case 1:
@@ -62,7 +62,7 @@ for (let i = 1; i <= 5; i++) {
     if (i === 3) {
         break;
     }
-    console.log(i); // Outputs: 1, 2
+    console.log(i);
 }
 
 // Using continue to skip 3
@@ -77,7 +77,6 @@ for (let i = 1; i <= 5; i++) {
 let globalVar = "I am global!";
 
 function testScope() {
-    // Local variable - accessible only inside this function
     let localVar = "I am local to this function!";
     
     console.log("Inside function:");
@@ -89,7 +88,7 @@ function testScope() {
 testScope();
 
 console.log("Outside function:");
-console.log(globalVar); // Works!
+console.log(globalVar);
 
 try {
     console.log(localVar);
