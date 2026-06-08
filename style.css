@@ -1,0 +1,20 @@
+/* 1. Target the whole body to change the background and text color */
+body {
+    background-color: #f4f4f9;   /* Light gray background */
+    color: #333333;              /* Dark gray text */
+    font-family: Arial, sans-serif; /* Clean font */
+    padding: 20px;
+}
+
+/* 2. Target all h1 headings */
+h1 {
+    color: #2c3e50;              /* Deep blue-gray color */
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+}
+
+/* 3. Target all paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
